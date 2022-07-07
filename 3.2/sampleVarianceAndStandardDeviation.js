@@ -19,7 +19,9 @@ sample. The result is called the variance.
 
 Step 6: Take the square root of the variance to get the standard deviation. */
 
-let sample = [85, 62, 89, 67, 83, 73, 90, 64, 69]
+let sample1 = [85,69,67]
+let sample2 = [89,64,69]
+let sample = [73,69,62]
 
 console.log('SAMPLE')
 
