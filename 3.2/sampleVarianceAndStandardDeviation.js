@@ -21,7 +21,7 @@ Step 6: Take the square root of the variance to get the standard deviation. */
 
 let sample1 = [85,69,67]
 let sample2 = [89,64,69]
-let sample = [73,69,62]
+let sample = [6, 16, 5, 6, 5, 31, 5, 4, 26, 8, 7, 45, 10, 11, 31, 0, 27, 5, 10, 6, 20, 6, 20, 10, 29, 15, 54, 3, 11, 31, 0, 4, 5, 12, 3, 8, 6, 12, 8, 14]
 
 console.log('SAMPLE')
 
@@ -44,15 +44,16 @@ function setDeviations(arr, mean){
 
 let devArr =  setDeviations(sample, m)
 
-console.log('Deviations Array prior to square: ' +  devArr)
+console.log('Deviations Array prior to square: ')
+console.log(devArr)
 //3.Square each deviation to make it positive
 let squaredDevs = [] 
 devArr.forEach(el => {
     squaredDevs.push(el*el)    
 })
 
-console.log('Deviations Array after square: ' +  squaredDevs)
-
+console.log('Deviations Array after square: ')
+console.log(squaredDevs)
 //4. Add the squared deviations together
 let sum = squaredDevs.reduce((a, b) => a + b, 0)
 console.log('Sum = ' + sum)
