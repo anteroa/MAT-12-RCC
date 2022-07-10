@@ -1,5 +1,5 @@
 function median(values){
-    if(values.length ===0) throw new Error("No inputs");
+    if(values.length === 0) throw new Error("No inputs");
   
     values.sort(function(a,b){
       return a-b;
