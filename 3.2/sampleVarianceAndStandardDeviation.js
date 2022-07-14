@@ -21,7 +21,9 @@ Step 6: Take the square root of the variance to get the standard deviation. */
 
 let sample1 = [85,69,67]
 let sample2 = [89,64,69]
-let sample = [6, 16, 5, 6, 5, 31, 5, 4, 26, 8, 7, 45, 10, 11, 31, 0, 27, 5, 10, 6, 20, 6, 20, 10, 29, 15, 54, 3, 11, 31, 0, 4, 5, 12, 3, 8, 6, 12, 8, 14]
+let sample = [51, 32, 42, 36, 38, 27, 47, 38, 58, 27, 38, 29]
+
+
 
 console.log('SAMPLE')
 
